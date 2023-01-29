@@ -1,5 +1,6 @@
-﻿string[] inPutArray = new string[4] {"hello", "2", "world", ":-)"};
-
+﻿//Заданный массив
+string[] inPutArray = new string[4] {"hello", "2", "world", ":-)"};
+// Метод создания массива из 3-х символьных строк
 string[] CreateArr(string[] array, int size)
 {
     int j = 0; 
@@ -15,7 +16,7 @@ string[] CreateArr(string[] array, int size)
 
     return outArr;
 }
-
+// Метод вывода массива
 void PrintArray(string[] array)
 {
    for (int i = 0; i < array.Length; i++)
